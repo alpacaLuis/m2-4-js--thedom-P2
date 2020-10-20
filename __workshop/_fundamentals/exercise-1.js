@@ -4,10 +4,14 @@
 // ---------------
 // Write a function accepts an array of values and returns a new array of stringified values.
 //
+let arr = [1,2,3]
 
 const convertToString = (arr) => {
-  // Insert missing solution please
+  return arr.map(function(i){
+    return i.toString()
+  })
 };
+
 
 // Part 2 - Test
 // --------------
